@@ -14,7 +14,7 @@ Classificação do Nível dos Herois:
 ## Usage
 
 ```JavaScript
-Loop: if / else if / else
+if / else if / else
 ```
 
 ## Author
