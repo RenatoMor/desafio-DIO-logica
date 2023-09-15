@@ -9,12 +9,20 @@
 
 
 ## Description
-Classificação do Nível dos Herois:
+1. Classificação do Nível dos Heróis
+2. Calculadora de Partidas Rankeadas
 
 ## Usage
 
 ```JavaScript
-if / else if / else
+Desafio 1 -  Classificação do Nível do Herói: 
+Estrutura Condicional - if / else if / else
+
+Desafio 2 - Calculadora de Partidas Rankeadas: 
+Função e Estrutura Condicional
+
+Desafio 3 - Escrevendo as Classes de um Jogo:
+Função, Classe, Estrutura Condicional e metodo.
 ```
 
 ## Author

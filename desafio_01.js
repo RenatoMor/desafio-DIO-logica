@@ -1,7 +1,10 @@
+//------------Desafio 01 - Classificador de Nível de Herói------------
+
+//------------------------Definindo as variáveis----------------------
 let nome = "Chapolin";
 let xp = 15000;
 let nivel = "";
-
+//---------Estrutura condicional para definir o nível do herói---------
 if (xp < 1000) {
     nivel = "Ferro";
 } else if (xp >= 1001 && xp < 2000) {
@@ -21,5 +24,6 @@ if (xp < 1000) {
 } else {
     nivel = "Desconhecido";
 }
+//-----------------Exibindo o nome e o nível do herói----------------
 
 console.log(`O heroi de nome **${nome}** possui nível de **${nivel}**." `);

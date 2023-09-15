@@ -1,6 +1,12 @@
+//-------------Desafio 02 - Classificando Partidas Rankeadas --------------
+
+//---------------------Criação da função calcularNivel---------------------
+
 function calcularNivel(vitorias, derrotas) {
     let saldoVitorias = vitorias - derrotas;
     let nivel;
+
+//---------Estrutura condicional para definir o nível do jogador------------
 
     if (vitorias < 10) {
         nivel = "Ferro";
@@ -17,9 +23,11 @@ function calcularNivel(vitorias, derrotas) {
     } else {
         nivel = "Imortal";
     }
+//------Exibindo o saldo de vitórias e o nível do jogador---------------
 
     console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
 }
 
+//------Chamando a função calcularNivel()--------------------------------
 
 calcularNivel(35, 15); 
